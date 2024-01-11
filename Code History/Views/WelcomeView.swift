@@ -9,13 +9,10 @@ import SwiftUI
 
 struct WelcomeView: View {
     
-    var mainColor = Color(red: 69/255, green: 2/255, blue: 105/255)
-    let accentColor = Color(red: 66/255, green: 245/255, blue: 75/255)
-    
     var body: some View {
         NavigationStack {
             ZStack {
-                mainColor.ignoresSafeArea()
+                GameColor.main.ignoresSafeArea()
                 VStack {
                     Spacer()
                     VStack(alignment: .leading, spacing: 0) {
@@ -37,8 +34,8 @@ struct WelcomeView: View {
                                     .padding()
                                 Spacer()
                             }
-                            .foregroundStyle(mainColor)
-                            .background(accentColor)
+                            .foregroundStyle(GameColor.main)
+                            .background(GameColor.accent)
                     })
                 }
                 .foregroundStyle(.white)
