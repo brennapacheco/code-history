@@ -8,23 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0E3A63E82B44A83F0079E606 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A63E72B44A83F0079E606 /* Code_HistoryApp.swift */; };
-		0E3A63EA2B44A83F0079E606 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A63E92B44A83F0079E606 /* ContentView.swift */; };
+		0E3A63EA2B44A83F0079E606 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3A63E92B44A83F0079E606 /* GameView.swift */; };
 		0E3A63EC2B44A8410079E606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A63EB2B44A8410079E606 /* Assets.xcassets */; };
 		0E3A63EF2B44A8410079E606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E3A63EE2B44A8410079E606 /* Preview Assets.xcassets */; };
 		0EB5DE7E2B4EC4480012418F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DE7D2B4EC4480012418F /* Question.swift */; };
 		0EB5DE802B4EC4D30012418F /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DE7F2B4EC4D30012418F /* ChoiceTextView.swift */; };
 		0EB5DE822B4EDC770012418F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DE812B4EDC770012418F /* Game.swift */; };
+		0EB5DEA22B5006A30012418F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEA12B5006A30012418F /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E3A63E42B44A83F0079E606 /* Code History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3A63E72B44A83F0079E606 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
-		0E3A63E92B44A83F0079E606 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E3A63E92B44A83F0079E606 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		0E3A63EB2B44A8410079E606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E3A63EE2B44A8410079E606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EB5DE7D2B4EC4480012418F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		0EB5DE7F2B4EC4D30012418F /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		0EB5DE812B4EDC770012418F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		0EB5DEA12B5006A30012418F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 		0EB5DE842B4EDF060012418F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E3A63E92B44A83F0079E606 /* ContentView.swift */,
+				0E3A63E92B44A83F0079E606 /* GameView.swift */,
+				0EB5DEA12B5006A30012418F /* WelcomeView.swift */,
 				0EB5DE7F2B4EC4D30012418F /* ChoiceTextView.swift */,
 			);
 			path = Views;
@@ -163,8 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EB5DE7E2B4EC4480012418F /* Question.swift in Sources */,
+				0EB5DEA22B5006A30012418F /* WelcomeView.swift in Sources */,
 				0EB5DE822B4EDC770012418F /* Game.swift in Sources */,
-				0E3A63EA2B44A83F0079E606 /* ContentView.swift in Sources */,
+				0E3A63EA2B44A83F0079E606 /* GameView.swift in Sources */,
 				0EB5DE802B4EC4D30012418F /* ChoiceTextView.swift in Sources */,
 				0E3A63E82B44A83F0079E606 /* Code_HistoryApp.swift in Sources */,
 			);
