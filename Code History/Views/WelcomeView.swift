@@ -26,16 +26,7 @@ struct WelcomeView: View {
                     NavigationLink(
                         destination: GameView(),
                         label: {
-                            HStack {
-                                Spacer()
-                                Text("Okay, let's go!")
-                                    .font(.title)
-                                    .bold()
-                                    .padding()
-                                Spacer()
-                            }
-                            .foregroundStyle(GameColor.main)
-                            .background(GameColor.accent)
+                            BottomTextView(txt: "Okay, let's go!")
                     })
                 }
                 .foregroundStyle(.white)
