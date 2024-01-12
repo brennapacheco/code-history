@@ -20,6 +20,7 @@
 		0EB5DEA92B5053D10012418F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEA82B5053D10012418F /* GameViewModel.swift */; };
 		0EB5DEAB2B50592D0012418F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEAA2B50592D0012418F /* QuestionView.swift */; };
 		0EE8356A2B51B89900AC61CE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE835692B51B89900AC61CE /* ScoreView.swift */; };
+		0EE8356C2B51BEA800AC61CE /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8356B2B51BEA800AC61CE /* ScoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0EB5DEA82B5053D10012418F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		0EB5DEAA2B50592D0012418F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		0EE835692B51B89900AC61CE /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		0EE8356B2B51BEA800AC61CE /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0EB5DEA82B5053D10012418F /* GameViewModel.swift */,
+				0EE8356B2B51BEA800AC61CE /* ScoreViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				0EB5DEAB2B50592D0012418F /* QuestionView.swift in Sources */,
 				0EB5DEA92B5053D10012418F /* GameViewModel.swift in Sources */,
 				0EB5DE7E2B4EC4480012418F /* Question.swift in Sources */,
+				0EE8356C2B51BEA800AC61CE /* ScoreViewModel.swift in Sources */,
 				0EB5DEA22B5006A30012418F /* WelcomeView.swift in Sources */,
 				0EB5DE822B4EDC770012418F /* Game.swift in Sources */,
 				0E3A63EA2B44A83F0079E606 /* GameView.swift in Sources */,

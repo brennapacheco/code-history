@@ -23,9 +23,9 @@ struct GameView: View {
             }
         }
         .background(
-            NavigationLink(destination: ScoreView(),
+            NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(correctGuesses: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses)),
                            isActive: .constant(viewModel.gameIsOver),
-                           label: { ScoreView() })
+                           label: { EmptyView() })
         )
         .foregroundStyle(.white)
         .navigationBarHidden(true)
