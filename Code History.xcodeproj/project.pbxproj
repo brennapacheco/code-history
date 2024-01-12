@@ -19,6 +19,7 @@
 		0EB5DEA62B50115B0012418F /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEA52B50115B0012418F /* BottomTextView.swift */; };
 		0EB5DEA92B5053D10012418F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEA82B5053D10012418F /* GameViewModel.swift */; };
 		0EB5DEAB2B50592D0012418F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5DEAA2B50592D0012418F /* QuestionView.swift */; };
+		0EE8356A2B51B89900AC61CE /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE835692B51B89900AC61CE /* ScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0EB5DEA52B50115B0012418F /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
 		0EB5DEA82B5053D10012418F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		0EB5DEAA2B50592D0012418F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		0EE835692B51B89900AC61CE /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0EB5DE7F2B4EC4D30012418F /* ChoiceTextView.swift */,
 				0EB5DEA52B50115B0012418F /* BottomTextView.swift */,
 				0EB5DEAA2B50592D0012418F /* QuestionView.swift */,
+				0EE835692B51B89900AC61CE /* ScoreView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				0EB5DE822B4EDC770012418F /* Game.swift in Sources */,
 				0E3A63EA2B44A83F0079E606 /* GameView.swift in Sources */,
 				0EB5DEA62B50115B0012418F /* BottomTextView.swift in Sources */,
+				0EE8356A2B51B89900AC61CE /* ScoreView.swift in Sources */,
 				0EB5DEA42B500E6C0012418F /* GameColor.swift in Sources */,
 				0EB5DE802B4EC4D30012418F /* ChoiceTextView.swift in Sources */,
 				0E3A63E82B44A83F0079E606 /* Code_HistoryApp.swift in Sources */,
